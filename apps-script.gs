@@ -1,7 +1,4 @@
-// Google Apps Script – nhận câu trả lời từ thiệp mời và ghi vào Google Sheet.
-// Dán vào Apps Script, thay DÁN_ID_VÀO_ĐÂY bằng ID của Google Sheet (xem HUONG-DAN.md).
-
-const SHEET_ID = 'DÁN_ID_VÀO_ĐÂY';
+const SHEET_ID = 'https://script.google.com/macros/s/AKfycbxNfEywwrusO9o2La-mrVaWTHUOATe8D1_O_IwrpFq2WwMyZPa8VKv0Gydoq6BfvmEI/exec';
 const SHEET_NAME = 'RSVP';
 const HEADERS = ['Thời gian', 'Tên', 'Trạng thái', 'Lời chúc', 'Link riêng (ten=)'];
 const TRANG_THAI = { 'co': 'Sẽ đến', 'chua-chac': 'Chưa chắc', 'khong': 'Không đến được' };
